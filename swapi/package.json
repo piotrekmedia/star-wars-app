@@ -38,6 +38,9 @@
 		]
 	},
 	"devDependencies": {
-		"@types/material-ui": "^0.21.12"
+		"@types/material-ui": "^0.21.12",
+		"sass": "^1.52.3",
+		"sass-loader": "^13.0.0",
+		"webpack": "^5.73.0"
 	}
 }
