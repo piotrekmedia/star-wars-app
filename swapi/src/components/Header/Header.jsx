@@ -3,9 +3,9 @@ import './Header.scss';
 
 function Header() {
 	return (
-		<div>
-			<p>Header</p>
-		</div>
+		<header className='site-header'>
+			<p>STAR WARS APP</p>
+		</header>
 	);
 }
 

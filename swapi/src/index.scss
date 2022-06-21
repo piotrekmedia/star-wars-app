@@ -1,0 +1,15 @@
+//fonts
+
+@font-face {
+	font-family: 'Starjedi';
+	font-weight: 600;
+	src: local('Starjedi'),
+		url(./fonts/Starjedi/Starjedi.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Poppins';
+	font-weight: 400;
+	src: local('Poppins-Regular.ttf'),
+		url(./fonts/Poppins/Poppins-Regular.ttf) format('truetype');
+}
