@@ -3,9 +3,22 @@ import './Header.scss';
 
 function Header() {
 	return (
-		<header className='site-header'>
-			<p>STAR WARS APP</p>
-		</header>
+		<div className='header'>
+			<div className='header_container'>
+				<h1 className='logo'>STAR WARS</h1>
+				<div className='buttons'>
+					<button className='buttons__btn-primary'>
+						CLICK ME NOW!
+					</button>
+					<button className='buttons__btn-primary'>
+						CLICK ME NOW!
+					</button>
+					<button className='buttons__btn-primary'>
+						CLICK ME NOW!
+					</button>
+				</div>
+			</div>
+		</div>
 	);
 }
 
