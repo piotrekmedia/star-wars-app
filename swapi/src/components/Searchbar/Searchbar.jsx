@@ -3,8 +3,11 @@ import './Searchbar.scss';
 
 function Searchbar() {
 	return (
-		<div>
-			<p>Searchbar</p>
+		<div className='search-container'>
+			<div className='inputs'>
+				<input type='text' placeholder='Search phrase...' />
+			</div>
+			<button className='search-btn'>Search!</button>
 		</div>
 	);
 }

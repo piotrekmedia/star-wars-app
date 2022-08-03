@@ -3,8 +3,14 @@ import './Menu.scss';
 
 function Menu() {
 	return (
-		<div>
-			<p>Menu</p>
+		<div className='buttons-container'>
+			<div className='buttons'>
+				<button className='buttons__btn-primary'>People</button>
+				<button className='buttons__btn-primary'>Planets</button>
+				<button className='buttons__btn-primary'>Species</button>
+				<button className='buttons__btn-primary'>Vehicles</button>
+				<button className='buttons__btn-primary'>Starships</button>
+			</div>
 		</div>
 	);
 }
