@@ -5,8 +5,10 @@ import Searchbar from '../Searchbar/Searchbar';
 function Header() {
 	return (
 		<div className='header'>
-			<div className='header_container'>
-				<h1 className='logo'>STAR WARS</h1>
+			<div className='header-container'>
+				<a href='#' className='header-container__logo'>
+					STAR WARS
+				</a>
 				<Searchbar />
 			</div>
 		</div>
