@@ -9,7 +9,6 @@
 	top: 0;
 
 	&__primary {
-		// position: relative;
 		font-family: 'Poppins', sans-serif;
 		font-size: 16px;
 		color: $gray;
@@ -24,5 +23,8 @@
 	&__primary:hover {
 		border-bottom: 3px $green-special solid;
 		font-weight: bold;
+		-webkit-box-shadow: 0px 8px 10px -3px rgba(168, 255, 58, 1);
+		-moz-box-shadow: 0px 8px 10px -3px rgba(168, 255, 58, 1);
+		box-shadow: 0px 8px 10px -3px rgba(168, 255, 58, 1);
 	}
 }
